@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.1] — 2026-10-10 — Repository QA and access hygiene
+### Added
+- GitHub Actions for policy tests, markdown link validation and synthetic demo.
+- Public-repo CONTRIBUTING and SECURITY guides.
+### Updated
+- Documentation/contract baseline reclassified as v0.1.1; no live deployment implied.
+
+
 ## [0.1.0] — 2026-10-10 — Baseline opportunity + engineering scaffold
 ### Added
 - Mission, use-case portfolio and alternative delivery/business scenarios.

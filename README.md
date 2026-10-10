@@ -1,7 +1,7 @@
 # Atlas Device Bridge (ADB)
 
 > **AtlasHub · Consent-based AI-to-device capability bridge**  
-> **Baseline v0.1.0 · 2026-10-10 · Opportunity study + engineering reference · NOT deployed**
+> **Baseline v0.1.1 · 2026-10-10 · Opportunity study + engineering reference · NOT deployed**
 
 **Atlas Device Bridge** investigates how AtlasHub/Hermes agents may securely **observe, guide, or perform narrowly authorized actions** on paired user-owned or enterprise devices: desktop, mobile, tablets, kiosks, and smart-TV experiences. ADB **is not** a surveillance product, an unconstrained remote shell, a replacement agent harness, or a new company.
 
