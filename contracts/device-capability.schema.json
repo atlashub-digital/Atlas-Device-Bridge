@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADB Device Capabilities Manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "device_class",
+    "platform",
+    "client_version",
+    "capabilities"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "device_class": {
+      "enum": [
+        "desktop",
+        "mobile",
+        "tablet",
+        "tv",
+        "kiosk",
+        "hdmi_companion"
+      ]
+    },
+    "platform": {
+      "enum": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios",
+        "android_tv",
+        "tizen",
+        "webos",
+        "other"
+      ]
+    },
+    "client_version": {
+      "type": "string"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "risk",
+          "requires_foreground"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z]+\\.[a-z_]+$"
+          },
+          "risk": {
+            "enum": [
+              "read",
+              "capture",
+              "write",
+              "sensitive"
+            ]
+          },
+          "requires_foreground": {
+            "type": "boolean"
+          },
+          "requires_local_confirmation": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

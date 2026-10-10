@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADB Capability Invocation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "device_ref",
+    "session_ref",
+    "capability_id",
+    "params",
+    "correlation_id",
+    "nonce",
+    "issued_at"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "device_ref": {
+      "type": "string"
+    },
+    "session_ref": {
+      "type": "string"
+    },
+    "capability_id": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object"
+    },
+    "correlation_id": {
+      "type": "string"
+    },
+    "nonce": {
+      "type": "string",
+      "minLength": 12
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "approval_ref": {
+      "type": "string"
+    }
+  }
+}

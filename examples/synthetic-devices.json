@@ -1,0 +1,26 @@
+[
+  {
+    "deviceRef": "device-A",
+    "tenantId": "tenant-A",
+    "paired": true,
+    "online": true,
+    "localEnabled": true,
+    "capabilities": [
+      "ui.inspect",
+      "ui.click",
+      "screen.snapshot"
+    ],
+    "platform": "windows"
+  },
+  {
+    "deviceRef": "device-B",
+    "tenantId": "tenant-B",
+    "paired": true,
+    "online": true,
+    "localEnabled": true,
+    "capabilities": [
+      "ui.inspect"
+    ],
+    "platform": "macos"
+  }
+]

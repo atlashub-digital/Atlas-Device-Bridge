@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">Atlas Device Bridge reference architecture</title>
+<desc id="desc">AtlasHub AI Workforce connects through a policy gateway to user-consented desktop, mobile and TV companions. Selected-file input can be indexed by Atlas Knowledge Hub.</desc>
+<rect width="1200" height="520" rx="28" fill="#0f172a"/>
+<text x="65" y="66" fill="#f8fafc" font-family="Arial,sans-serif" font-size="30" font-weight="700">ATLAS DEVICE BRIDGE</text>
+<text x="66" y="99" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">Consent-first capability architecture · v0.1.0 (proposal)</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#38bdf8"/></marker></defs>
+<rect x="62" y="156" width="241" height="105" rx="16" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+<text x="84" y="198" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="20" font-weight="700">AI Workforce</text>
+<text x="84" y="228" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Hermes · Agent Packs</text>
+<rect x="376" y="144" width="362" height="139" rx="16" fill="#075985" stroke="#38bdf8" stroke-width="2"/>
+<text x="401" y="186" fill="#fff" font-family="Arial,sans-serif" font-size="22" font-weight="700">ADB Capability Gateway</text>
+<text x="401" y="220" fill="#bae6fd" font-family="Arial,sans-serif" font-size="16">Tenant · pairing · consent · policy</text>
+<text x="401" y="245" fill="#bae6fd" font-family="Arial,sans-serif" font-size="16">Typed actions · audit · revocation</text>
+<path d="M303 209 L374 209" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M738 209 L802 209" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="806" y="120" width="323" height="82" rx="14" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+<text x="830" y="156" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="19" font-weight="700">Desktop Companion</text>
+<text x="830" y="183" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Windows · macOS · Linux</text>
+<rect x="806" y="216" width="323" height="82" rx="14" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+<text x="830" y="252" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="19" font-weight="700">Mobile Companion</text>
+<text x="830" y="279" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Android · iOS own app</text>
+<rect x="806" y="310" width="323" height="82" rx="14" fill="#1e293b" stroke="#0ea5e9" stroke-width="2"/>
+<text x="830" y="346" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="19" font-weight="700">TV / Kiosk</text>
+<text x="830" y="373" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Owned app · approved HDMI</text>
+<path d="M774 209 V161 H803 M774 209 V258 H803 M774 209 V351 H803" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="373" y="345" width="365" height="103" rx="16" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+<text x="398" y="389" fill="#ecfdf5" font-family="Arial,sans-serif" font-size="21" font-weight="700">Atlas Knowledge Hub</text>
+<text x="398" y="420" fill="#a7f3d0" font-family="Arial,sans-serif" font-size="15">Only opt-in selected source ingestion</text>
+<path d="M806 161 H780 V325 H555 V342" fill="none" stroke="#34d399" stroke-dasharray="6 8" stroke-width="3"/>
+<text x="64" y="478" fill="#cbd5e1" font-family="Arial,sans-serif" font-size="15">Pairing ≠ permission · Local user can always deny, pause and revoke.</text>
+</svg>
